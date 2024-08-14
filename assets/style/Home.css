@@ -1,0 +1,36 @@
+
+/* Home Section */
+.home-section {
+    background-color: #343a40;
+    color: #f1c40f;
+    padding: 60px 0;
+}
+
+.home-section .carousel-caption h5 {
+    color: #f1c40f;
+}
+
+.home-section .carousel-caption p {
+    color: #f1c40f;
+}
+
+.home-section .btn-outline-light {
+    border-color: #f1c40f;
+    color: #f1c40f;
+}
+
+.home-section .btn-outline-light:hover {
+    background-color: #f1c40f;
+    color: #343a40;
+}
+
+/* Card Styles */
+.card-img-top {
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover;
+}
+
+/* Additional Styles */
+.text-black-50 {
+    color: rgba(0, 0, 0, 0.5);
+}
