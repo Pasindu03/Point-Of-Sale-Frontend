@@ -1,0 +1,38 @@
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+}
+
+.card-box{
+    margin-top: 260px!important;
+    background: linear-gradient(to top right, #dfdee0 0%, #fcfbfd 100%);
+}
+
+@media all and (max-width: 980px){
+    .card{
+        width: 60% !important;
+    }
+}
+
+@media all and (max-width: 392px){
+    .card{
+        width: 90% !important;
+    }
+}
+
+#sign_up_page{
+    display: none;
+}
+
+.add-new-customerBtn{
+    width: 180px;
+}
+
+.add-new-ItemBtn{
+    width: 180px;
+}
+
